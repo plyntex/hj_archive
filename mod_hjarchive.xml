@@ -38,7 +38,22 @@
 
 
 			</fieldset>
-
+            <fieldset name="options" label="COM_MODULES_BASIC_FIELDSET_LABEL">
+				<field
+					name="catid"
+					type="category"
+					extension="com_content"
+					multiple="true"
+					size="5"
+					label="JCATEGORY"
+					description="MOD_HJARCHIVE_BASIC_FIELDSET_LABEL"
+				>
+					<option value="">JOPTION_ALL_CATEGORIES</option>
+				</field>
+                
+                
+			</fieldset>
+            
 			<fieldset name="advanced">
 				<field
 					name="layout"

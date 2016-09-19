@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 // include the syndicate functions only once
 require_once __DIR__ . '/helper.php';
 
-
 $class_sfx = htmlspecialchars($params->get('class_sfx'));
+$list = modHJArchiveHelper::getList( $params );
 
 require(JModuleHelper::getLayoutPath('mod_hjarchive', $params->get('layout', 'default')));
