@@ -8,7 +8,7 @@
 defined('_JEXEC') or die;
 ?>
 
-<div id="dwarchive">
+<div id="hjarchive">
 <ul>
 <?php foreach ($list as $key => $value){ ?>
         <li><span><?php echo $key ?></span>

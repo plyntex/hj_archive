@@ -13,7 +13,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail></authorEmail>
 	<authorUrl></authorUrl>
-	<version>1.0.0</version>
+	<version>0.3.0</version>
 	<description>
 	<![CDATA[
 	
@@ -25,6 +25,7 @@
 		<filename>helper.php</filename>
 		<filename>index.html</filename>
 		<folder>tmpl</folder>
+        <folder>assets</folder>
 	</files>
 
 	<languages>
