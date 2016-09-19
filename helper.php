@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
  * HJ - HJ Archive Helper Class.
  *
  * @package		Joomla.Site
- * @subpakage	HJ.HJArchive
+ * @subpakage	HJArchive
  */
 
 require_once JPATH_SITE . '/components/com_content/helpers/route.php';
