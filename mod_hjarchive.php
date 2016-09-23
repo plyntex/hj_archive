@@ -23,4 +23,5 @@ $doc->addStylesheet(JURI::base(true) . '/modules/mod_hjarchive/assets/css/archiv
 if ($params->get('enable_js', 1))
 $doc->addScript(JURI::base(true) . '/modules/mod_hjarchive/assets/js/archive.js');
 
+
 require(JModuleHelper::getLayoutPath('mod_hjarchive', $params->get('layout', 'default')));
